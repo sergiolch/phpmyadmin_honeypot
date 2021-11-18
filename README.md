@@ -1,4 +1,4 @@
-#phpMyAdmin Honeypot
+# phpMyAdmin Honeypot
 
 version 1.5 -- 7/2/2015
 
@@ -8,7 +8,7 @@ Probably one of the smallest and simplest web honeypots out there...
 
 --------------------------------------------------
 
-#[Requirements]
+# [Requirements]
 
           You will need...
 
@@ -24,7 +24,7 @@ Probably one of the smallest and simplest web honeypots out there...
 
 --------------------------------------------------
 
-#[Installation]
+# [Installation]
 
 Medium-Interaction Version:
 
@@ -86,7 +86,7 @@ Note - you can combine both versions of this honeypot...
 
 --------------------------------------------------
 
-#[LogRhythm SIEM Regular Expressions]
+# [LogRhythm SIEM Regular Expressions]
 
           Flat File Path:
                /var/www/phpmyadmin/log.txt
@@ -139,7 +139,7 @@ Note - you can combine both versions of this honeypot...
 
 --------------------------------------------------
 
-#[Changelog]
+# [Changelog]
 
           7/2/2015
                Added install.sh configuration script
@@ -163,7 +163,7 @@ Note - you can combine both versions of this honeypot...
 
 --------------------------------------------------
 
-#[License]
+# [License]
 
 Copyright (c) 2015, Greg Foss
 All rights reserved.
