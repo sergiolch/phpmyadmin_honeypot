@@ -72,6 +72,7 @@ if [ -f ../phpmyadmin_honeypot/README.md ]; then
 fi
 echo ""
 sudo chown -R $webUser:$webUser $directory/phpmyadmin/
+sudo chcon -R -t httpd_sys_rw_content_t $directory/phpmyadmin/$phpmyadminLog.txt 
 echo "Fake PhpMyAdmin has been configured successfully and can be accessed via http://127.0.0.1/phpmyadmin/"
 echo "There are also one fake phpinfo page: $directory/phpmyadmin/phpinfo.php"
 echo "Logs will write to: $directory/phpmyadmin/$phpmyadminLog.txt"

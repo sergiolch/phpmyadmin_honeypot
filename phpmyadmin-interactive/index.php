@@ -108,7 +108,8 @@ function getRealIpAddr()
 $ip = getRealIpAddr();
 $date = date ("d/m/Y:H:i:s");
 $page = $_SERVER['SCRIPT_FILENAME'];
-$message = "$date, $ip, $page\n"; 
+$method = $_SERVER['REQUEST_METHOD'];
+$message = "$ip - - [$date] \"$method $page\"\n"; 
 $File = "log.txt";
 $Open = fopen($File, "a+"); 
 if ($Open){ 
